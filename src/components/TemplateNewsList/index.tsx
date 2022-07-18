@@ -75,6 +75,7 @@ const TemplateNewsList = (props: TemplateNewsListProps) => {
         {index === 0 && <Spacer height={20} />}
 
         <View style={[globalStyles.displayFlex, styles.description]}>
+          <Spacer height={5} />
           <Text numberOfLines={3} style={globalStyles.headingBold.h3}>
             {item.title}
           </Text>
